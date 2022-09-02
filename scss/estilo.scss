@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+header{
+    background-color: black;
+
+    .nav12{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 25px 130px;
+        list-style-type:none;
+
+        .menu45 {
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+
+            .menu452 {
+                list-style: none;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+                text-decoration: none;
+
+                a { 
+                    list-style: none;
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+
+                    a:hover{
+                        text-decoration:underline;
+                        color: white;
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }
+}
